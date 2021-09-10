@@ -6,8 +6,8 @@ if int(str(number)[-1]) < 6:
         print('Last digit of {} is {} and is less than 6 and is 0'.format(number, str(number)[-1]))
     else:
         print('Last digit of {} is {} and is less than 6 and not 0'.format(number, str(number)[-1]))
-elif int(str(number)[-1]) < 6:
+else:
     if int(str(number)[-1]) == 0:
-        print('Last digit of {} is {} and is less than 6 and is 0'.format(number, str(number)[-1]))
+        print('Last digit of {} is {} and is greater than 5 and is 0'.format(number, str(number)[-1]))
     else:
-        print('Last digit of {} is {} and is less than 6 and not 0'.format(number, str(number)[-1]))
+        print('Last digit of {} is {} and is greater than 5 and not 0'.format(number, str(number)[-1]))
