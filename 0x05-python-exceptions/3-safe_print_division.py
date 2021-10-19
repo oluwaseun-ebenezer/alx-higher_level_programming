@@ -13,4 +13,4 @@ def safe_print_division(a,b):
         div_result = "None"
         print("Inside result: None")
     finally:
-        print("{} / {} = {}".format(a,b, div_result))
+        return div_result
