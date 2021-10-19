@@ -7,8 +7,10 @@ def safe_print_division(a,b):
     """ safe_print_division """
 
     try:
-        print("Inside result: {}".format(a/b))
+        div_result = a/b
+        print("Inside result: {}".format(div_result)
     except ValueError:
+        div_result = "None"
         print("Inside result: None")
     finally:
-        print("{} / {} = {}".format(a,b, a/b))
+        print("{} / {} = {}".format(a,b, div_result))
