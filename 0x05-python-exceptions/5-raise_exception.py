@@ -6,4 +6,4 @@
 def raise_exception():
     """ raise_exception """
 
-    return Exception
+    raise Exception()
