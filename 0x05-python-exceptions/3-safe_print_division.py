@@ -8,7 +8,7 @@ def safe_print_division(a,b):
 
     try:
         div_result = a/b
-        print("Inside result: {}".format(div_result)
+        print("Inside result: {}".format(div_result))
     except ValueError:
         div_result = "None"
         print("Inside result: None")
