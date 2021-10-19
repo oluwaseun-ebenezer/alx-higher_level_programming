@@ -6,4 +6,4 @@
 def raise_exception():
     """ raise_exception """
 
-    raise Exception()
+    raise TypeError
