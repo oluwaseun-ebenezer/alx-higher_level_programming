@@ -14,4 +14,4 @@ def safe_print_list(my_list=[], _x=0):
 
     print()
 
-    return i+(0 if _x == 0 else 1)
+    return i
