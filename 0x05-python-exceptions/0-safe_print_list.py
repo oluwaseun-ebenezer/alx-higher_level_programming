@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """ 0-safe_print_list """
 
 def safe_print_list(my_list=[], _x=0):
