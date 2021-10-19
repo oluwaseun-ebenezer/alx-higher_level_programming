@@ -12,4 +12,7 @@ def safe_print_integer(value):
     except ValueError:
         return False
 
+    except TypeError:
+        return False
+
     return True
