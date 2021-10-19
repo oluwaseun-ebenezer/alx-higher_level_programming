@@ -3,7 +3,7 @@
 """ 1-safe_print_integer """
 
 
-def safe_print_list(my_list=[], _x=0):
+def safe_print_list_integers(my_list=[], _x=0):
     """ safe_print_list_integers """
 
     counter = 0
