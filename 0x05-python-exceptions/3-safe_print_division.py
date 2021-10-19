@@ -13,6 +13,6 @@ def safe_print_division(a, b):
     except (ValueError, ZeroDivisionError):
         div_result = "None"
     finally:
-        print(div_result)
+        print("{}".format(div_result))
 
     return div_result
