@@ -13,8 +13,6 @@ def safe_print_list_integers(my_list=[], _x=0):
             counter += 1
         except (ValueError, TypeError):
             continue
-        except IndexError:
-            break
 
     print()
 
